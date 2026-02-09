@@ -6,8 +6,87 @@ body{
     color: #ffffff; 
 }
 
-.site-hearder{ 
+.site-header{ 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+#currently-trending-list li{ 
+    counter-increment: item;
+    display: flex;   
+    align-items: center;
+    position: relative;
+}
+
+#currently-trending-list li::before{ 
+    content: counter(item) "."; 
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right; 
+}
+
+/* *COMMENT* THis sections that is commented off was na experiment of me trying to attend a zigzag method unfortunately it did not work  */
+/* #currently-trending-list li img:nth-child(even){ 
+    display: flexbox;
+    flex-direction: row-reverse; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#currently-trending-list li img:nth-child(even)::before{ 
+    display: flexbox;
+    flex-direction: column-reverse; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+
+
+#diorSauvage{ 
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#armaniStronger{ 
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#yves{ 
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#trendingListTitle{
+    text-align: center;
+}
+
+.site-header{ 
+    background-color: #ffffff;
+    color: black;
+}
+
+.site-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: black;
 }
