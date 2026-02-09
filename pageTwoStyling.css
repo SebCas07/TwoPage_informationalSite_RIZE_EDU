@@ -6,6 +6,10 @@ body{
     color: #ffffff; 
 }
 
+#classicFavoritesTitle{ 
+  text-align: center;
+}
+
 #headerTwo{ 
     display: flex;
     flex-direction: column;
