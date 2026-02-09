@@ -1,0 +1,61 @@
+body{ 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #2b2b2b;
+    color: #ffffff; 
+}
+
+#headerTwo{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff 65%, #2b2b2b);
+    color: black;
+}
+
+#chanel{ 
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Paco{ 
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#Tom{ 
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#versace{
+    display:flexbox; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.footer2{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #2b2b2b 1%, #ffffff);
+    color: black;
+}
