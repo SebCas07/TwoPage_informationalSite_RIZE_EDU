@@ -28,15 +28,18 @@ body{
     color: #ffffff; 
 }
 
-.site-header{ 
+/* Replaced by bootstrap  */
+
+/* .site-header{ 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+    background-color: #ffffff;
+} */
 
-#currently-trending-list li{ 
+/* #currently-trending-list li{ 
     counter-increment: item;
     display: flex;   
     align-items: center;
@@ -48,7 +51,7 @@ body{
     font-size: 40px;
     font-weight: bold;
     text-align: right; 
-}
+} */
 
 /* *COMMENT* THis sections that is commented off was na experiment of me trying to attend a zigzag method unfortunately it did not work  */
 /* #currently-trending-list li img:nth-child(even){ 
