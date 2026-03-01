@@ -107,11 +107,11 @@ body{
     color: black;
 }
 
-/* .site-footer{
-    display: flex;
+.site-footer{
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: #ffffff;
     color: black;
-} */
+}
